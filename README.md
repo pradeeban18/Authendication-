@@ -17,7 +17,7 @@
 - Basic CSRF protection
 - Password hashing for security
 
-## database create query 
+## Database  Create Query 
 CREATE DATABASE user_auth;
 
 USE user_auth;
@@ -31,7 +31,7 @@ CREATE TABLE users (
 );
 
 
-## set user account for created db 
+## Set User Account for  Database 
 CREATE USER 'people_technologies'@'localhost' IDENTIFIED BY 'people_tech@123#';
 
 GRANT ALL PRIVILEGES ON user_auth.* TO 'people_technologies'@'localhost';
